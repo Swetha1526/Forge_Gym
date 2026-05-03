@@ -1,0 +1,87 @@
+/* ─────────────────────────────────────
+   FORGE GYM — Base & Typography
+───────────────────────────────────── */
+
+/* Shared Section Styles */
+section {
+  padding: 6rem 4rem;
+}
+
+.section-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 0.8rem;
+}
+
+.section-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.section-sub {
+  color: var(--gray);
+  font-weight: 300;
+  font-size: 1.05rem;
+  max-width: 540px;
+  line-height: 1.7;
+}
+
+/* Shared Buttons */
+.btn-primary {
+  background: var(--red);
+  color: var(--white);
+  padding: 0.9rem 2.2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  transition: background 0.2s, transform 0.15s;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: var(--red-dark);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--white);
+  padding: 0.9rem 2.2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  clip-path: polygon(8px 0%, 100% 0%, calc(100% - 8px) 100%, 0% 100%);
+  transition: border-color 0.2s, transform 0.15s;
+  display: inline-block;
+}
+
+.btn-outline:hover {
+  border-color: var(--white);
+  transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

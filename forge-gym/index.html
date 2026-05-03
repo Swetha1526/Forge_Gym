@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FORGE GYM – Forge Your Legacy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/variables.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <link rel="stylesheet" href="styles/sections.css" />
+  <link rel="stylesheet" href="styles/responsive.css" />
+</head>
+<body>
+
+  <!-- ══════════ NAVIGATION ══════════ -->
+  <nav>
+    <a href="#hero" class="logo">FORGE<span>.</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#trainers">Trainers</a></li>
+      <li><a href="#testimonials">Results</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact" class="nav-cta">Join Now</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-accent"></div>
+    <div class="hero-line"></div>
+
+    <div class="hero-content">
+      <div class="hero-tag">Est. 2015 &mdash; Chennai, India</div>
+      <h1 class="hero-title">
+        FORGE<br>
+        YOUR<br>
+        <span class="accent">LEGACY</span>
+      </h1>
+      <p class="hero-sub">
+        Where discipline becomes identity. Elite training, world-class coaches,
+        and a community built around one goal — your transformation.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Start Free Trial</a>
+        <a href="#services" class="btn-outline">Explore Programs</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">2,400+</div>
+        <div class="stat-label">Members</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">18</div>
+        <div class="stat-label">Expert Trainers</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">98%</div>
+        <div class="stat-label">Satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ TICKER ══════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>Strength Training</span><span class="ticker-dot">✦</span>
+      <span>CrossFit</span><span class="ticker-dot">✦</span>
+      <span>Yoga &amp; Mobility</span><span class="ticker-dot">✦</span>
+      <span>Boxing &amp; MMA</span><span class="ticker-dot">✦</span>
+      <span>Nutrition Coaching</span><span class="ticker-dot">✦</span>
+      <span>Personal Training</span><span class="ticker-dot">✦</span>
+      <span>Cardio Classes</span><span class="ticker-dot">✦</span>
+      <span>Body Transformation</span><span class="ticker-dot">✦</span>
+      <!-- Duplicate for seamless loop -->
+      <span>Strength Training</span><span class="ticker-dot">✦</span>
+      <span>CrossFit</span><span class="ticker-dot">✦</span>
+      <span>Yoga &amp; Mobility</span><span class="ticker-dot">✦</span>
+      <span>Boxing &amp; MMA</span><span class="ticker-dot">✦</span>
+      <span>Nutrition Coaching</span><span class="ticker-dot">✦</span>
+      <span>Personal Training</span><span class="ticker-dot">✦</span>
+      <span>Cardio Classes</span><span class="ticker-dot">✦</span>
+      <span>Body Transformation</span><span class="ticker-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ══════════ SERVICES ══════════ -->
+  <section id="services">
+    <div class="services-header">
+      <div>
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title">World-Class<br>Programs</h2>
+      </div>
+      <p class="section-sub">
+        Every program is designed by certified experts to maximize your results,
+        whatever your starting point.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <!-- Card 1 — Featured (tall) -->
+      <div class="service-card">
+        <div class="service-bg" style="background-image:url('gym_1.jpg')"></div>
+        <div class="service-overlay"></div>
+        <div class="service-content">
+          <span class="service-icon">🏋️</span>
+          <div class="service-name">Strength &amp; Conditioning</div>
+          <div class="service-desc">Progressive overload programs backed by science. Build power, endurance, and a physique that commands respect.</div>
+          <span class="service-tag">→ Explore Program</span>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="service-card">
+        <div class="service-bg" style="background-image:url('gym_2.jpg')"></div>
+        <div class="service-overlay"></div>
+        <div class="service-content">
+          <span class="service-icon">🥊</span>
+          <div class="service-name">Boxing &amp; MMA</div>
+          <div class="service-desc">Master strikes, footwork, and combat strategy with champions.</div>
+          <span class="service-tag">→ Explore Program</span>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="service-card">
+        <div class="service-bg" style="background-image:url('gym_3.jpg')"></div>
+        <div class="service-overlay"></div>
+        <div class="service-content">
+          <span class="service-icon">🧘</span>
+          <div class="service-name">Yoga &amp; Mobility</div>
+          <div class="service-desc">Restore, recover, and move pain-free with guided sessions.</div>
+          <span class="service-tag">→ Explore Program</span>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="service-card">
+        <div class="service-bg" style="background-image:url('gym_4.jpg')"></div>
+        <div class="service-overlay"></div>
+        <div class="service-content">
+          <span class="service-icon">🔥</span>
+          <div class="service-name">HIIT &amp; CrossFit</div>
+          <div class="service-desc">High-intensity functional movements built to shred fat fast.</div>
+          <span class="service-tag">→ Explore Program</span>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="service-card">
+        <div class="service-bg" style="background-image:url('gym_5.jpg')"></div>
+        <div class="service-overlay"></div>
+        <div class="service-content">
+          <span class="service-icon">🥗</span>
+          <div class="service-name">Nutrition Coaching</div>
+          <div class="service-desc">Personalized meal plans that fuel performance and recovery.</div>
+          <span class="service-tag">→ Explore Program</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ VIDEO BANNER ══════════ -->
+  <div id="video-section">
+    <div class="video-container">
+      
+      <video
+        id="gym-reel"
+        class="video-bg-iframe"
+        autoplay
+        muted
+        loop
+        playsinline
+      >
+        <source src="Fitness Cinematic video _ Gym commercial _ Cinematic fitness film _ Fitness commercial.mp4" type="video/mp4">
+      </video>
+      <div class="video-overlay">
+        <div class="video-text">
+          See The<br>
+          <span style="color:var(--red)">Results</span>
+        </div>
+        <button class="play-btn" aria-label="Play video">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════ TRAINERS ══════════ -->
+  <section id="trainers">
+    <div class="section-label">Our Experts</div>
+    <h2 class="section-title">Meet The<br>Trainers</h2>
+
+    <div class="trainers-grid">
+      <div class="trainer-card">
+        <img class="trainer-img" src="gym_6.jpg" alt="Marcus Steele - Strength Coach"/>
+        <div class="trainer-info">
+          <div class="trainer-name">Marcus Steele</div>
+          <div class="trainer-role">Strength Coach</div>
+          <div class="trainer-socials">
+            <a href="#">IG</a>
+            <a href="#">TW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-card">
+        <img class="trainer-img" src="gym_7.jpg" alt="Priya Nair - Yoga Instructor"/>
+        <div class="trainer-info">
+          <div class="trainer-name">Priya Nair</div>
+          <div class="trainer-role">Yoga &amp; Mobility</div>
+          <div class="trainer-socials">
+            <a href="#">IG</a>
+            <a href="#">TW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-card">
+        <img class="trainer-img" src="gym_8.jpg" alt="Jake Torres - MMA Coach"/>
+        <div class="trainer-info">
+          <div class="trainer-name">Jake Torres</div>
+          <div class="trainer-role">MMA &amp; Boxing</div>
+          <div class="trainer-socials">
+            <a href="#">IG</a>
+            <a href="#">TW</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="trainer-card">
+        <img class="trainer-img" src="gym_9.jpg" alt="Aisha Khan - Nutritionist"/>
+        <div class="trainer-info">
+          <div class="trainer-name">Aisha Khan</div>
+          <div class="trainer-role">Nutrition &amp; Wellness</div>
+          <div class="trainer-socials">
+            <a href="#">IG</a>
+            <a href="#">TW</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ TESTIMONIALS ══════════ -->
+  <section id="testimonials">
+    <div class="testimonials-header">
+      <div>
+        <div class="section-label">Client Stories</div>
+        <h2 class="section-title">Real People.<br>Real Results.</h2>
+      </div>
+      <p class="section-sub">Join thousands who've already transformed their lives at Forge Gym.</p>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"I lost 22 kg in 6 months and gained a confidence I never thought I'd have. The trainers here don't just coach — they become part of your journey. Forge changed my life."</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="gym_10.jpg" alt="Rahul Menon"/>
+          <div>
+            <div class="testi-name">Rahul Menon</div>
+            <div class="testi-meta">Member since 2022 · Lost 22kg</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"As a working mom, I needed something flexible and effective. The early morning HIIT classes and personalized nutrition plan made it all possible. Best investment I've made."</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="gym_11.jpg" alt="Ananya Krishnan"/>
+          <div>
+            <div class="testi-name">Ananya Krishnan</div>
+            <div class="testi-meta">Member since 2023 · Transformed</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"Training with Marcus completely changed how I approach the gym. I went from struggling with basic lifts to competing in my first powerlifting meet. The community here is unreal."</p>
+        <div class="testi-author">
+          <img class="testi-avatar" src="gym_12.jpg" alt="Dev Sharma"/>
+          <div>
+            <div class="testi-name">Dev Sharma</div>
+            <div class="testi-meta">Member since 2021 · Powerlifter</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ PRICING ══════════ -->
+  <section id="pricing">
+    <div class="section-label">Plans</div>
+    <h2 class="section-title">Invest In<br>Yourself</h2>
+    <p class="section-sub" style="margin-bottom:0">No hidden fees. Cancel anytime. Results guaranteed.</p>
+
+    <div class="pricing-grid">
+      <!-- Starter -->
+      <div class="pricing-card">
+        <div class="plan-name">Starter</div>
+        <div class="price">₹1,499</div>
+        <div class="price-period">per month</div>
+        <ul class="plan-features">
+          <li>Full Gym Access</li>
+          <li>Group Classes (5/month)</li>
+          <li>Locker Room Access</li>
+          <li>Basic App Tracking</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center">Get Started</a>
+      </div>
+
+      <!-- Pro (Featured) -->
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Most Popular</div>
+        <div class="plan-name">Pro</div>
+        <div class="price">₹2,999</div>
+        <div class="price-period">per month</div>
+        <ul class="plan-features">
+          <li>Full Gym Access 24/7</li>
+          <li>Unlimited Group Classes</li>
+          <li>2 Personal Training Sessions</li>
+          <li>Nutrition Consultation</li>
+          <li>Priority Booking</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center">Get Started</a>
+      </div>
+
+      <!-- Elite -->
+      <div class="pricing-card">
+        <div class="plan-name">Elite</div>
+        <div class="price">₹5,999</div>
+        <div class="price-period">per month</div>
+        <ul class="plan-features">
+          <li>Everything in Pro</li>
+          <li>8 Personal Training Sessions</li>
+          <li>Custom Meal Plans</li>
+          <li>Body Composition Analysis</li>
+          <li>Recovery &amp; Spa Access</li>
+        </ul>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT ══════════ -->
+  <section id="contact">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Start Your<br>Journey Today</h2>
+
+    <div class="contact-wrap">
+      <!-- Info -->
+      <div class="contact-info">
+        <h3>We're here to help you take the first step</h3>
+        <p>Fill in the form and one of our coaches will reach out within 24 hours to schedule your free trial session and discuss your goals.</p>
+
+        <div class="contact-details">
+          <div class="detail-item">
+            <div class="detail-icon">📍</div>
+            <div class="detail-text">
+              <strong>Location</strong>
+              <span>45 Anna Salai, T. Nagar, Chennai 600017</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-icon">📞</div>
+            <div class="detail-text">
+              <strong>Phone</strong>
+              <span>+91 98401 55231</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-icon">🕐</div>
+            <div class="detail-text">
+              <strong>Hours</strong>
+              <span>Mon–Sat: 5:00 AM – 11:00 PM &nbsp;|&nbsp; Sun: 6:00 AM – 9:00 PM</span>
+            </div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-icon">✉️</div>
+            <div class="detail-text">
+              <strong>Email</strong>
+              <span>hello@forgegym.in</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Your first name" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Your last name" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm Interested In</label>
+            <select id="interest">
+              <option value="">Select a program...</option>
+              <option>Strength &amp; Conditioning</option>
+              <option>Boxing &amp; MMA</option>
+              <option>Yoga &amp; Mobility</option>
+              <option>HIIT &amp; CrossFit</option>
+              <option>Nutrition Coaching</option>
+              <option>Personal Training</option>
+              <option>General Membership</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Goals</label>
+            <textarea id="message" rows="4" placeholder="Tell us about your fitness goals..."></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn-primary">Send Message →</button>
+          </div>
+          <div class="form-success" id="formSuccess">
+            ✓ Message sent! We'll reach out within 24 hours to schedule your free trial.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">FORGE<span>.</span></a>
+        <p>Building stronger bodies and stronger communities since 2015. Chennai's premier fitness destination.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Programs</h4>
+        <ul>
+          <li><a href="#services">Strength Training</a></li>
+          <li><a href="#services">Boxing &amp; MMA</a></li>
+          <li><a href="#services">Yoga &amp; Mobility</a></li>
+          <li><a href="#services">HIIT / CrossFit</a></li>
+          <li><a href="#services">Nutrition</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#trainers">Our Trainers</a></li>
+          <li><a href="#testimonials">Success Stories</a></li>
+          <li><a href="#pricing">Membership</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Forge Gym. Made with <span>♥</span> in Chennai.</p>
+      <div class="social-links">
+        <a href="#">IG</a>
+        <a href="#">FB</a>
+        <a href="#">YT</a>
+        <a href="#">TW</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

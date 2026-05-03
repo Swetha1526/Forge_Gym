@@ -1,0 +1,61 @@
+/* ─────────────────────────────────────
+   FORGE GYM — Responsive / Mobile
+───────────────────────────────────── */
+
+@media (max-width: 900px) {
+  /* Nav */
+  nav { padding: 1rem 1.5rem; }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--black);
+    padding: 5rem 2rem;
+    gap: 1.5rem;
+    z-index: 999;
+  }
+
+  .nav-links.open { display: flex; }
+  .nav-links a { font-size: 1.2rem; }
+  .hamburger { display: flex; z-index: 1001; }
+
+  /* Hero */
+  #hero { padding: 6rem 1.5rem 10rem; }
+  .hero-stats { right: 1.5rem; gap: 1.5rem; bottom: 2rem; }
+  .stat-num { font-size: 2rem; }
+
+  /* Sections */
+  section { padding: 4rem 1.5rem; }
+
+  /* Services */
+  .services-grid { grid-template-columns: 1fr 1fr; }
+  .service-card:first-child { grid-row: span 1; aspect-ratio: 3/4; }
+  .services-header { flex-direction: column; align-items: flex-start; }
+
+  /* Trainers */
+  .trainers-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Testimonials */
+  .testi-grid { grid-template-columns: 1fr; }
+  .testimonials-header { flex-direction: column; align-items: flex-start; }
+
+  /* Pricing */
+  .pricing-grid { grid-template-columns: 1fr; }
+
+  /* Contact */
+  .contact-wrap { grid-template-columns: 1fr; gap: 3rem; }
+  .form-row { grid-template-columns: 1fr; }
+
+  /* Footer */
+  .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  footer { padding: 3rem 1.5rem 1.5rem; }
+}
+
+@media (max-width: 600px) {
+  .services-grid { grid-template-columns: 1fr; }
+  .trainers-grid { grid-template-columns: 1fr 1fr; }
+  .footer-top { grid-template-columns: 1fr; }
+  .hero-stats { flex-wrap: wrap; }
+}
